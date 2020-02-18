@@ -20,3 +20,5 @@ Need a single place to configure our connection to the database (Knex).
 - open knexfile.js to configure the connection
 
 - SQLite does not honor string lengths
+
+- coming into a new project you can just run knex migrate:latest to get the entire schema for the database after cloning from a repository
